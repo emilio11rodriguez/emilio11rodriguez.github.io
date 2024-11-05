@@ -30,6 +30,45 @@
 
 /*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
 
+/* Estilo general para la barra de navegación */
+/* Asegúrate de que el fondo de la barra de navegación sea blanco */
+.navbar-nav {
+     background-color: #f8f9fa; /* Color de fondo */
+     padding: 10px; /* Espaciado interno */
+     display: flex; /* Asegura que los elementos se alineen en línea */
+     flex-wrap: wrap; /* Permite que los elementos se ajusten a la línea */
+     max-width: 150px; /* Ajusta el ancho máximo si es necesario */
+     border: none; /* Elimina bordes si hay */
+ }
+ 
+ /* Agregar un fondo blanco al contenedor principal (si es necesario) */
+ #navbarsExample04 {
+     background-color: white; /* Asegura que el fondo sea blanco */
+     border: none; /* Elimina bordes si hay */
+ }
+ 
+ /* Estilo para los enlaces de navegación */
+ .nav-link {
+     color: #1f1f1f; /* Color de texto */
+     font-size: 12px; /* Tamaño de fuente más pequeño */
+     padding: 5px 10px; /* Espaciado interno reducido */
+     transition: color 0.3s; /* Transición suave para cambios de color */
+ }
+ 
+ 
+ /* Cambiar el color del enlace al pasar el mouse */
+ .nav-link:hover {
+     color: #007bff; /* Color al pasar el mouse */
+ }
+ 
+ /* Estilo para el enlace activo */
+ .nav-item.active .nav-link {
+     font-weight: bold; /* Negrita para el enlace activo */
+     color: #007bff; /* Color diferente para el enlace activo */
+ }
+ 
+
+
 * {
      box-sizing: border-box !important;
 }

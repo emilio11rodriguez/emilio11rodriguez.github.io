@@ -169,18 +169,19 @@
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
       <script>
-         // Initialize Google Map with Ecuador location
+         // Initialize Google Map with Universidad de Cuenca location
          function initMap() {
            var map = new google.maps.Map(document.getElementById('map'), {
-             zoom: 6,
-             center: {lat: -1.831239, lng: -78.183406} // Coordinates for Ecuador
+             zoom: 17,
+             center: {lat: -2.9004602, lng: -79.0096916} // Coordenadas de la Universidad de Cuenca
            });
            var marker = new google.maps.Marker({
-             position: {lat: -1.831239, lng: -78.183406},
-             map: map
+             position: {lat: -2.9004602, lng: -79.0096916},
+             map: map,
+             title: "Universidad de Cuenca"
            });
          }
-      </script>
+      </script>      
       <!-- google map js -->
       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
       <!-- end google map js --> 

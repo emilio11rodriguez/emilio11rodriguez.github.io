@@ -837,3 +837,30 @@ ul.location_icon li a {
 .shop {
      margin-bottom: 90px;
 }
+
+/** para la seccion de informacion sobre mi */
+
+.about_me h2 {
+     font-size: 28px;
+     color: #333;
+     margin-bottom: 20px;
+ }
+ 
+ .about_me p {
+     font-size: 16px;
+     line-height: 1.8;
+     color: #555;
+ }
+ 
+ .personal_info h4 {
+     font-size: 18px;
+     margin-top: 15px;
+     color: #007bff;
+ }
+ 
+ .personal_info p {
+     font-size: 15px;
+     margin-bottom: 15px;
+     color: #333;
+ }
+ 

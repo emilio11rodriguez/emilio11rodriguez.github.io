@@ -8,7 +8,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="viewport" content="initial-scale=1, maximum-scale=1">
       <!-- site metas -->
-      <title>Conocenos</title>
+      <title>Contactanos</title>
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
@@ -61,16 +61,16 @@
                               <li class="nav-item ">
                                  <a class="nav-link" href="index.html">Inicio</a>
                               </li>
-                              <li class="nav-item active">
+                              <li class="nav-item">
                                  <a class="nav-link" href="about.html">Conocenos</a>
                               </li>
                               <li class="nav-item">
-                                 <a class="nav-link" href="glasses.html">Nuestros servicios</a>
+                                 <a class="nav-link" href="glasses.html">Nuestros Servicios</a>
                               </li>
                               <li class="nav-item">
                                  <a class="nav-link" href="shop.html">Vision y Mision</a>
                               </li>
-                              <li class="nav-item">
+                              <li class="nav-item active">
                                  <a class="nav-link" href="contact.html">Contactanos</a>
                               </li>
                               <li class="nav-item d_none sea_icon">
@@ -88,31 +88,75 @@
          </div>
       </header>
       <!-- end header inner -->
-      <!-- end header -->
-      <!-- about section -->
-      <div class="about">
+             <!-- Sobre Mí Section -->
+      <div id="about_me" class="about_me" style="background-color: #f9f9f9; padding: 50px 0;">
          <div class="container">
-            <div class="row d_flex">
-               <div class="col-md-5">
-                  <div class="about_img">
-                     <figure><img src="images/about_img.png" alt="#"/></figure>
-                  </div>
+            <div class="row">
+               <div class="col-md-12 text-center">
+                  <h2>Sobre Mí</h2>
+                  <p>Conoce más sobre mí, mi historia, y lo que me apasiona.</p>
                </div>
-               <div class="col-md-7">
-                  <div class="titlepage">
-                     <h2>Conócenos</h2>
-                     <p>En Tech Nova Cloud, ofrecemos soluciones innovadoras en la nube para impulsar la transformación digital de tu negocio. Nuestro equipo se dedica a proporcionar servicios de desarrollo de aplicaciones, consultoría en infraestructura digital, y seguridad en la nube, garantizando una experiencia excepcional para nuestros clientes.</p>
-                 </div>
-                 
-                  <a class="read_more" href="#">Read More</a>
+               <div class="col-md-6 offset-md-3">
+                  <div class="personal_info">
+                     <h4><strong>Nombre:</strong></h4>
+                     <p>Diego Quinllin</p>
+                     <h4><strong>Educación:</strong></h4>
+                     <p>Estudiante de Administracion de infraestructura y Plataformas Tecnologicas en la Universidad de Cuenca en conjunto con el Instituto Universitario Tecnologico del Azuay. Graduado de la Unidad Educativa Isabel Moscoso Davila donde curse desde el 1 año de educacion basica hasta el 3 año de bachillerato.</p>
+                     <h4><strong>Preferencias:</strong></h4>
+                     <p>Me apasiona el desarrollo web, la inteligencia artificial, y las tecnologías emergentes.</p>
+                     <h4><strong>Gustos:</strong></h4>
+                     <p>En mi tiempo libre disfruto de la música, el cine, y aprender sobre programación ademas de eso me gusta mucho el futbol soy fan del FC Barcelona los dias libres juego en campeonatos.</p>
+                  </div>
                </div>
             </div>
          </div>
       </div>
-      <!-- about section -->
+      <!-- end header -->
+      <!-- contact section -->
+      <div id="contact" class="contact">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <form id="request" class="main_form">
+                     <div class="row">
+                        <div class="col-md-12 ">
+                           <h3>Contactanos</h3>
+                        </div>
+                        <div class="col-md-12 ">
+                           <input class="contactus" placeholder="Nombre" type="text" name="Nombre"> 
+                        </div>
+                        <div class="col-md-12">
+                           <input class="contactus" placeholder="Número de Teléfono" type="text" name="Número de Teléfono"> 
+                        </div>
+                        <div class="col-md-12">
+                           <input class="contactus" placeholder="Correo Electrónico" type="email" name="Correo Electrónico">                          
+                        </div>
+                        <div class="col-md-12">
+                           <input class="contactusmess" placeholder="Mensaje" type="text" name="Mensaje">
+                        </div>
+                        <div class="col-md-12">
+                           <button class="send_btn">Enviar</button>
+                        </div>
+                        
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+         <div class="container-fluid">
+            <div class="map_section">
+               <div id="map">
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      <!-- end contact section -->
+      <!--  footer -->
+      <!-- end contact section -->
       <!--  footer -->
       <footer>
-         <div class="footer" style="background-color: #6abde4; padding: 40px 0;">
+         <div class="footer" style="background-color: #81e2fc; padding: 40px 0;">
              <div class="container">
                  <div class="row">
                      <div class="col-md-8 offset-md-2">
@@ -123,24 +167,25 @@
                                  </a>
                              </li>
                              <li style="margin: 10px 0;">
-                                 <a href="https://w.app/6YhN2I" style="text-decoration: none; color: #333; font-size: 14px; transition: color 0.3s;">
+                                 <a href="https://chat.whatsapp.com/GkDpUdx6ndpDyeEBOTP1l9" style="text-decoration: none; color: #333; font-size: 14px; transition: color 0.3s;">
                                      <i class="fa fa-phone" aria-hidden="true"></i> Contactar
                                  </a>
                              </li>
                              <li style="margin: 10px 0;">
-                                 <a href="mailto:Emilio@technova.com" style="text-decoration: none; color: #333; font-size: 14px; transition: color 0.3s;">
-                                     <i class="fa fa-envelope" aria-hidden="true"></i> Emilio@technova.com
+                                 <a href="mailto:Diego@technova.com" style="text-decoration: none; color: #333; font-size: 14px; transition: color 0.3s;">
+                                     <i class="fa fa-envelope" aria-hidden="true"></i> Diego@technova.com
                                  </a>
                              </li>
                          </ul>
                      </div>
                  </div>
                  <div class="copyright" style="text-align: center; margin-top: 20px; font-size: 12px; color: #666;">
-                     <p>© 2019 All Rights Reserved. Design by <a href="https://html.design/" style="color: #007bff;">Emilio Y Diego</a></p>
+                     <p>©2024 All Rights Reserved. Design by <a href="https://html.design/" style="color: #007bff;"> Emilio Y Diego </a></p>
                  </div>
              </div>
          </div>
-      </footer>      <!-- end footer -->
+      </footer>
+      <!-- end footer -->
       <!-- Javascript files-->
       <script src="js/jquery.min.js"></script>
       <script src="js/popper.min.js"></script>
@@ -149,5 +194,23 @@
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
+      <script>
+         // Initialize Google Map with Universidad de Cuenca location
+         function initMap() {
+           var map = new google.maps.Map(document.getElementById('map'), {
+             zoom: 15,
+             center: {lat: -2.90055, lng: -79.00453} // Coordenadas de la Universidad de Cuenca, Ecuador
+           });
+           var marker = new google.maps.Marker({
+             position: {lat: -2.90055, lng: -79.00453},
+             map: map,
+             title: "Universidad de Cuenca"
+           });
+         }
+      </script>
+       
+      <!-- google map js -->
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
+      <!-- end google map js --> 
    </body>
 </html>

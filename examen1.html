@@ -15,6 +15,31 @@
             color: #333;
         }
 
+        .navbar {
+            background-color: #007BFF;
+            padding: 10px 0;
+        }
+
+        .navbar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .navbar li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
         .container {
             max-width: 1200px;
             margin: 50px auto;
@@ -86,36 +111,50 @@
             .container {
                 padding: 20px;
             }
+            
             h1 {
                 font-size: 28px;
                 margin-bottom: 30px;
             }
+            
             .platform {
-                padding: 20px;
-            }
-        }
+                padding: 20px; 
+                margin-bottom: 30px; 
+             }
+         }
     </style>
 </head>
 <body>
+
+    <!-- Menú de Navegación -->
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="about.html">Conócenos</a></li>
+            <li><a href="services.html">Servicios</a></li>
+            <li><a href="contact.html">Contáctanos</a></li>
+        </ul>
+    </div>
+
     <div class="container">
         <h1>Plataformas para Acceso Remoto entre PCs</h1>
         
         <div class="platform">
             <h2>AnyDesk</h2>
             <!-- Imagen de AnyDesk -->
-            <img src="images/mission.jpg" alt="Imagen 1">
+            <img src="images/mision.jpg" alt="AnyDesk">
             <p>AnyDesk es un software de acceso remoto que permite a los usuarios conectarse a otros dispositivos (como computadoras o servidores) a través de internet, de forma rápida y segura. Su principal función es permitir el control remoto de una computadora desde otra, lo que facilita tareas como soporte técnico, trabajo a distancia, o la administración de equipos sin estar físicamente presente.</p>
             <a href="https://anydesk.com/es" class="button" target="_blank">Visitar AnyDesk</a>
         </div>
         
         <div class="platform">
             <h2>TeamViewer</h2>
-            <!-- Imagen de TeamViewer -->
-                     <figure><img src="images/mision.jpg" alt="#"/></figure>
-                  </div>
-            <p>TeamViewer es un software de acceso remoto que permite a los usuarios controlar y gestionar otros dispositivos a distancia a través de internet. Es utilizado ampliamente para brindar soporte técnico, colaborar en proyectos, o acceder a archivos y aplicaciones de una computadora desde cualquier lugar.</p>
-            <a href="https://www.teamviewer.com/es/" class="button" target="_blank">Visitar TeamViewer</a>
-        </div>
-    </div>
+             <!-- Imagen de TeamViewer -->
+             <img src="images/visual.jpg" alt="TeamViewer">
+             <p>TeamViewer es un software de acceso remoto que permite a los usuarios controlar y gestionar otros dispositivos a distancia a través de internet. Es utilizado ampliamente para brindar soporte técnico, colaborar en proyectos, o acceder a archivos y aplicaciones de una computadora desde cualquier lugar.</p>
+             <a href="https://www.teamviewer.com/es/" class="button" target="_blank">Visitar TeamViewer</a>
+         </div>
+     </div>
+
 </body>
 </html>
